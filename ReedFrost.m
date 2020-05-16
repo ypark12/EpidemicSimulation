@@ -3,8 +3,7 @@
 % Abe Park
 % ReedFrost.m
 % interval = an interval of probable outcomes of s_n+1 using the Reed-Frost 
-% model of approximation. Receives a current 1 X 3 SIR matrix and a
-% specified p value.
+% model of approximation. Receives a 1 X 3 SIR matrix and a p value.
 % ------------------------------------------------------------------------
 function interval = ReedFrost(sir, p)
     sn = sir(1);
